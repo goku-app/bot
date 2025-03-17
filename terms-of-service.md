@@ -13,7 +13,7 @@ By using this bot, you agree to the following terms:
 - We do not provide support if the bot is removed or restricted.  
 
 ### 3. User Responsibility  
-- You must comply with Discord’s Terms of Service ([https://discord.com/terms](https://discord.com/terms)).  
+- You must comply with [Discord’s Terms of Service](https://discord.com/terms).  
 - Do not use this bot for illegal, unethical, or disruptive activities.  
 
 ### 4. Service Availability  
