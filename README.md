@@ -2,6 +2,14 @@
   <img src="https://cdn.pfps.gg/pfps/5277-goku-ultra-instinct.gif" width="150" height="150">
   <h1 align="center">GOKU - Discord Raid Bot</h1>
 </p>
+
+<p align="center">
+  <a href="https://github.com/jacklebeignet/goku/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/jacklebeignet/goku?style=social"></a>
+  <a href="https://github.com/jacklebeignet/goku/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/jacklebeignet/goku?style=social"></a>
+  <a href="https://github.com/jacklebeignet/goku/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/jacklebeignet/goku"></a>
+  <a href="https://github.com/jacklebeignet/goku/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jacklebeignet/goku"></a>
+</p>
+
 <p align="center">
 GOKU is a <b>Discord raid bot</b> designed for <b>educational and development purposes only</b>. It allows users to send automated messages and flood a server with custom spam messages.  
 </p>
