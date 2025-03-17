@@ -68,16 +68,18 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
 ## 🔧 Installation  
 
 1. [**Download the latest release**](https://github.com/jacklebeignet/goku/releases/latest).
+   
+3. **Unarchive the ZIP file you downloaded from the release.**
 
-2. **Install the dependencies:**
+4. **Install the dependencies:**
    ```sh
    pip install -r requirements.txt
    ```
-3. **Add your bot token:**
+5. **Add your bot token:**
    
    Open src/TOKEN.txt and paste your Discord bot token inside.
 
-4. **Run the bot:**
+6. **Run the bot:**
    ```sh
    python bot.py
    ```
