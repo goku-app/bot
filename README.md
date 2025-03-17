@@ -65,4 +65,18 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
 # The bot sends a simple message, but the username of the person is visible.
 ```
 
-## Installation
+## 🔧 Installation  
+
+1. **Clone the repository:**  
+   ```sh
+   gh repo clone jacklebeignet/goku
+   cd goku
+   ```
+
+2. **Install the dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. **Add your bot token:**
+   
+   Open TOKEN.txt and paste your Discord bot token inside.
