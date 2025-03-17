@@ -83,3 +83,6 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
    ```sh
    python bot.py
    ```
+## ⭐️ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jacklebeignet/goku&type=Date)](https://www.star-history.com/#jacklebeignet/goku&Date)
