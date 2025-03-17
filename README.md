@@ -14,6 +14,7 @@ GOKU is a <b>Discord raid bot</b> designed for <b>educational and development pu
 - [Demonstration](#-demonstration)
 - [Example Usage](#-example-usage)
 - [Installation](#-installation)
+- [Star History](#-star-history)
 
 ---
 
