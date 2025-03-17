@@ -12,8 +12,8 @@ GOKU is a <b>Discord raid bot</b> designed for <b>educational and development pu
 - Spam messages in any channel  
 - Customizable spam messages  
 - Anonymously send messages  
-- Simple slash commands  
-- 24/7 availability  
+- Simple slash commands
+- Bypass admin permissions
 
 ---
 
@@ -37,3 +37,7 @@ GOKU is a <b>Discord raid bot</b> designed for <b>educational and development pu
 
 ### `/help`  
 🔹 Displays bot information and the support server link.  
+
+## ⚙ Demonstration  
+
+This bot is also self-hosted by me. You can invite it on our Discord server: **[dsc.gg/beignet](https://discord.gg/sc5tfyEUqD)**.  
