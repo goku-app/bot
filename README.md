@@ -41,3 +41,28 @@ GOKU is a <b>Discord raid bot</b> designed for <b>educational and development pu
 ## ⚙ Demonstration  
 
 This bot is also self-hosted by me. You can invite it on our Discord server: **[dsc.gg/beignet](https://discord.gg/sc5tfyEUqD)**.  
+
+## Example Usage
+
+> [!IMPORTANT]  
+> For the commands to work, it is necessary to have the **'Use External Apps'** permission enabled in the current channel. Otherwise, the messages will be private and will only be seen by the user itself. 
+
+```sh
+/kill
+# The bot floods the channel with pre-made raid messages
+```
+
+```sh
+/kill-custom text:Hello
+# The bot floods the channel with custom raid messages
+```
+
+```sh
+/send text:Hello anonymous=True
+# The bot sends a simple message anonymously.
+
+/send text:Hello anonymous=False
+# The bot sends a simple message, but the username of the person is visible.
+```
+
+## Installation
