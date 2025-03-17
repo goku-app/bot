@@ -1,6 +1,6 @@
-## Terms of Service  
+# Terms of Service  
 
-_Last Updated: [Insert Date]_  
+_Last Updated: Monday March 17, 2025_
 
 By using this bot, you agree to the following terms:  
 
