@@ -79,4 +79,9 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
    ```
 3. **Add your bot token:**
    
-   Open TOKEN.txt and paste your Discord bot token inside.
+   Open src/TOKEN.txt and paste your Discord bot token inside.
+
+4. **Run the bot:**
+   ```sh
+   python bot.py
+   ```
