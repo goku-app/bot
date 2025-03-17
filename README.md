@@ -67,11 +67,7 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
 
 ## 🔧 Installation  
 
-1. **Clone the repository:**  
-   ```sh
-   gh repo clone jacklebeignet/goku
-   cd goku
-   ```
+1. [**Download the latest release**](https://github.com/jacklebeignet/goku/releases/latest).
 
 2. **Install the dependencies:**
    ```sh
