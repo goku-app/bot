@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-GOKU is a <b>Discord raid bot</b> designed for <b>educational and development purposes only</b>. It allows users to send automated messages and flood a server with custom spam messages.  
+GOKU is a <b>Discord raid bot</b> designed for <b>educational and development purposes only</b>. It allows users to send automated messages and flood a server with custom spam messages without admin permissions.  
 </p>
 
 ---
