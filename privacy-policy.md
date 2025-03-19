@@ -1,7 +1,7 @@
 # **Privacy Policy**  
 _Last Updated: Monday March 17, 2025_  
 
-This Privacy Policy explains how this bot handles user data. By using the bot for educational and development purposes, you agree to the terms below.  
+By using the bot for educational and development purposes, you agree to the terms below.  
 
 ### **1. Data Collection**  
 This bot may collect and process the following data:  
