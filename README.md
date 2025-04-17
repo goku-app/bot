@@ -54,7 +54,7 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
 ## 🚀 Example Usage
 
 > [!IMPORTANT]  
-> For the commands to work, it is necessary to have the **'Use External Apps'** permission enabled in the current channel. Otherwise, the messages will be private and will only be seen by the user itself. 
+> For the commands to work, it is necessary to have the **'Use External Apps'** permission enabled in the current channel. Otherwise, the messages will be private and will only be seen by the user itself. You can use Vencord's Plugin called [PermissionsViewer](https://vencord.dev/plugins/PermissionsViewer) to see the permissions in the channel.
 
 ```sh
 /kill
