@@ -5,6 +5,8 @@
   // Your Discord user ID — used to send announcements to 
   "ADMIN_ID": 123456789,
 
-  // Server IDs where protection is enabled
-  "PROTECTED_SERVER_IDS": ["1", "2"]
+  // Presence settings
+  // Possible STATUS_TYPE values: "watching", "playing", "listening", "streaming"
+  "STATUS_TYPE": "watching",
+  "CUSTOM_STATUS": "dsc.gg/beignet"
 }
