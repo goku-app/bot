@@ -94,7 +94,7 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
 
 6. **Run the bot:**
    ```sh
-   python bot.py
+   python src/main.py
    ```
 ## ⭐️ Star History
 
