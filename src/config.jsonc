@@ -1,0 +1,10 @@
+{
+  // Your bot token from the Discord Developer Portal
+  "token": "",
+
+  // Your Discord user ID — used to send announcements to 
+  "ADMIN_ID": 123456789,
+
+  // Server IDs where protection is enabled
+  "PROTECTED_SERVER_IDS": ["1", "2"]
+}
