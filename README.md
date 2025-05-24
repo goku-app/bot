@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jacklebeignet/goku/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/jacklebeignet/goku?style=social"></a>
-  <a href="https://github.com/jacklebeignet/goku/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/jacklebeignet/goku?style=social"></a>
-  <a href="https://github.com/jacklebeignet/goku/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/jacklebeignet/goku"></a>
-  <a href="https://github.com/jacklebeignet/goku/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jacklebeignet/goku"></a>
+  <a href="https://github.com/goku-app/bot/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/goku-app/bot?style=social"></a>
+  <a href="https://github.com/goku-app/bot/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/goku-app/bot?style=social"></a>
+  <a href="https://github.com/goku-app/bot/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/goku-app/bot"></a>
+  <a href="https://github.com/goku-app/bot/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/goku-app/bot"></a>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ GOKU is a <b>Discord raid bot</b> designed for <b>educational and development pu
 ---
 
 ## 📌 How It Works  
-1. **Add the bot to your server**  
+1. **Add the bot to your Discord Account**  
 2. **Use slash commands** to execute actions  
 3. **Watch it spam messages** in public channels  
 
@@ -50,7 +50,7 @@ GOKU is a <b>Discord raid bot</b> designed for <b>educational and development pu
 
 ## ⚙ Demonstration  
 
-This bot is also self-hosted by me. You can invite it on our Discord server: **[dsc.gg/beignet](https://discord.gg/sc5tfyEUqD)**.  
+This bot is also self-hosted by me. You can invite it on our Discord server: **[dsc.gg/beignet](https://discord.gg/sc5tfyEUqD)**. You are free to host this yourself.  
 
 ## 🚀 Example Usage
 
@@ -75,9 +75,12 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
 # The bot sends a simple message, but the username of the person is visible.
 ```
 
+> [!NOTE]
+> Even if your username is hidden from the messages, that doesn’t mean you’re completely hidden from them! Setting the value "anonymous" to true makes it harder for others to find, but people can still see your username and ban you. You can check out [NTTS's video](https://youtu.be/6vjG34uyPz0?si=Zc1ulknyH6eQRRdL&t=329) where this is explained in detail.
+
 ## 🔧 Installation  
 
-1. [**Download the latest release**](https://github.com/jacklebeignet/goku/releases/latest).
+1. [**Download the latest release**](https://github.com/goku-app/bot/releases/latest).
    
 3. **Unarchive the ZIP file you downloaded from the release.**
 
@@ -95,4 +98,4 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
    ```
 ## ⭐️ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jacklebeignet/goku&type=Date)](https://www.star-history.com/#jacklebeignet/goku&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=goku-app/bot&type=Date)](https://www.star-history.com/#goku-app/bot&Date)
