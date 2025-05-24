@@ -33,9 +33,6 @@ if not ADMIN_ID:
 if not PROTECTED_SERVER_IDS:
     print("⚠️  No PROTECTED_SERVER_IDS found. Continuing without server protection.")
 
-if status_type_str not in status_types:
-    print(f"⚠️ Unknown STATUS_TYPE '{status_type_str}' in config.jsonc. Defaulting to 'watching'.")
-
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all(), help_command=None)
 
 class SendButton(discord.ui.View):
@@ -89,7 +86,10 @@ async def on_ready():
         "playing": discord.ActivityType.playing,
         "listening": discord.ActivityType.listening,
         "streaming": discord.ActivityType.streaming,
-     }
+    }
+
+    if status_type_str not in status_types:
+        print(f"⚠️ Unknown STATUS_TYPE '{status_type_str}' in config.jsonc. Defaulting to 'watching'.")
 
     activity_type = status_types.get(status_type_str, discord.ActivityType.watching)
 
@@ -104,6 +104,7 @@ async def on_ready():
         print(f"✅ Synced {len(synced)} global commands!")
     except Exception as e:
         print(f"❌ Sync failed: {e}")
+
 
 @bot.tree.command(name="kill", description="Kill the server")
 async def kill(interaction: discord.Interaction):
