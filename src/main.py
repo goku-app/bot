@@ -33,6 +33,9 @@ if not ADMIN_ID:
 if not PROTECTED_SERVER_IDS:
     print("⚠️  No PROTECTED_SERVER_IDS found. Continuing without server protection.")
 
+if status_type_str not in status_types:
+    print(f"⚠️ Unknown STATUS_TYPE '{status_type_str}' in config.jsonc. Defaulting to 'watching'.")
+
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all(), help_command=None)
 
 class SendButton(discord.ui.View):
@@ -78,10 +81,23 @@ class KillCustomButton(discord.ui.View):
 
 @bot.event
 async def on_ready():
+    status_type_str = config.get("STATUS_TYPE", "watching").lower()
+    custom_status = config.get("CUSTOM_STATUS", "dsc.gg/beignet")
+
+    status_types = {
+        "watching": discord.ActivityType.watching,
+        "playing": discord.ActivityType.playing,
+        "listening": discord.ActivityType.listening,
+        "streaming": discord.ActivityType.streaming,
+     }
+
+    activity_type = status_types.get(status_type_str, discord.ActivityType.watching)
+
     await bot.change_presence(
         status=discord.Status.idle,
-        activity=discord.Activity(type=discord.ActivityType.watching, name="dsc.gg/beignet")
+        activity=discord.Activity(type=activity_type, name=custom_status)
     )
+
     print(f"✅ Logged in as {bot.user}")
     try:
         synced = await bot.tree.sync()
