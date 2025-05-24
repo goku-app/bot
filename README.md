@@ -1,3 +1,5 @@
+## ⚠ FUTURES UPDATES WILL NOT BE CONTINUED HERE. PLEASE GO TO THIS REPO: [goku-app/bot](https://github.com/goku-app/bot)
+
 <p align="center">
   <img src="https://cdn.pfps.gg/pfps/5277-goku-ultra-instinct.gif" width="150" height="150">
   <h1 align="center">GOKU - Discord Raid Bot</h1>
