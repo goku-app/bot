@@ -88,11 +88,13 @@ This bot is also self-hosted by me. You can invite it on our Discord server: **[
    ```sh
    pip install -r requirements.txt
    ```
-5. **Add your bot token:**
+5. **Configure your bot:**
    
-   Open src/TOKEN.txt and paste your Discord bot token inside.
+   To configure your bot, please modify the JSON in src/config.jsonc and modify to your liking.
 
-6. **Run the bot:**
+   In the file, you need to put your token, your admin ID and an optional protected server ID. You can also set an custom status if you like it.
+
+7. **Run the bot:**
    ```sh
    python src/main.py
    ```
