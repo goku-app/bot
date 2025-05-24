@@ -108,10 +108,10 @@ async def help_command(interaction: discord.Interaction):
 @bot.tree.command(name="send", description="Send a message with or without anonymity")
 @app_commands.describe(text="The message to send", anonymous="Send anonymously?")
 async def send(interaction: discord.Interaction, text: str, anonymous: bool = False):
-    await interaction.response.defer()
+    await interaction.response.defer(ephemeral=anonymous)
 
     if anonymous:
-        await interaction.response.send_message(
+        await interaction.followup.send(
             content="click me please :3",
             view=SendButton(text),
             ephemeral=True
