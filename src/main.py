@@ -3,6 +3,9 @@ from discord import app_commands
 from discord.ext import commands
 
 TOKEN = open("TOKEN.txt").read().strip()
+if not TOKEN:
+    print("No token was found. Please put your Discord's Bot Token in src/TOKEN.txt")
+    exit()
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all(), help_command=None)
 
